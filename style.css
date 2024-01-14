@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --body-bg: rgb(6, 6, 65);
+    --primary-color: #4169E1;
+    --secondary-color: #04AA6D;
+
+}
+body{
+    background-color: var(--body-bg);
+}
+
+.btn-primary{
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--body-bg);
+    color: black;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--secondary-color);
+    width: 165px;
+    text-align: center;
+    
+}
+
+.btn-secondary{
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--primary-color);
+    color: #FFF;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border: none;
+}
+/* Header related styles */
+
+
+
+header{
+    max-width: 1440px;
+    /* border: 2px dashed black; */
+    margin: 20px;
+    background: linear-gradient(to bottom right,  rgb(13, 2, 24), rgb(6, 6, 65));
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: skyblue;
+}
+/* navigation  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+nav div{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: skyblue;
+    font-weight: 400;
+}
+
+.logo{
+    color: skyblue;
+}
+.logo span{
+    color: var(--secondary-color);
+}
+
+
+
+/* banner relaed styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner div{
+    /* border: 2px dashed green; */
+    width: 50%;
+}
+.banner img{
+    margin-left: 5rem;
+    height: 80%;
+    width: 80%;
+}
+.banner-content{
+    margin-left: 100px;
+}
+
+/* main section related styles */
+
+/* hosting related styles */
+main{
+    max-width: 1440px;
+    margin: 20px;
+    color: skyblue;
+}
+
+.hosting-container{
+    margin-top: 100px;
+    background: linear-gradient(to bottom right,  rgb(13, 2, 24), rgb(6, 6, 65));
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    /* border: 1px dashed wheat; */
+}
+.hosting-container>div{
+    /* border: 2px solid gray; */
+    width: 48%;
+}
+.hosting-contents{
+    padding: 50px;
+}
+.hosting-contents h2,
+.hosting-contents p, 
+.hosting-contents button{
+    margin-top: 30px;
+}
+
+.hosting-cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.hosting-cards .cards:hover{
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+}
+.hosting-cards .cards{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right,  rgb(13, 2, 24), rgb(5, 62, 85));
+}
+.ctf, .globe, .Cloud, .Code {
+    font-size: 2.5rem;
+    color: gold;
+}
+
+/* create related styles */
+.create{
+    max-width: 1000px;
+    /* border: 2px solid gainsboro; */
+    padding: 30px;
+    /* background: linear-gradient(to bottom right,  rgb(13, 2, 24), rgb(6, 6, 65)); */
+    border-radius: 10px;
+    text-align: center;
+}
+.create img{
+    position: relative;
+    left: -100px;
+}
+.card{
+    text-align: start;
+    width: 400px;
+    height: 280px;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    position: absolute;
+    top: 1520px;
+    left: 700px;
+    background-color: skyblue;
+    color: brown;
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.1);
+
+}
+
