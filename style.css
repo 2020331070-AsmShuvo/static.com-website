@@ -154,6 +154,14 @@ main{
     border-radius: 10px;
     background: linear-gradient(to bottom right,  rgb(13, 2, 24), rgb(5, 62, 85));
 }
+.more{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #04AA6D;
+    font-size: 1.2rem;
+    
+}
 .ctf, .globe, .Cloud, .Code {
     font-size: 2.5rem;
     color: gold;
@@ -234,8 +242,10 @@ main{
 
 
 /* purchase cards */
-.parchase{
-    background-color: rebeccapurple;
+.purchase h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .purchase-cards{
     display: flex;
@@ -264,4 +274,62 @@ main{
     background: linear-gradient(to bottom right,  rgb(97, 3, 3), rgb(194, 4, 4));
     scale: 1.1;
     border: 1px solid #04AA6D;
+}
+
+.purchase .content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 158px;
+    margin-right: 165px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.purchase .content h6{
+    margin: 0px;
+    color: red;
+}
+
+
+/* footer related styles */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 30px;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+footer input,
+footer textarea{
+    background-color: rgb(22, 20, 20);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    color: #FFF;
+}
+footer input{
+    height: 50px;
+}
+footer div{
+    width: 40%;
+}
+.icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+}
+.fa-facebook{
+    color: blueviolet;
+}
+.fa-square-instagram{
+    color: rgb(218, 63, 63);
+}
+.fa-linkedin{
+    color: rgb(38, 28, 182);
 }
